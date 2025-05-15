@@ -306,7 +306,7 @@ Sie erreichen das neue Dashboard jederzeit über den Eintrag im Monitor-Menü.
 Fügen Sie nun auf dem leeren Dashboard das Dashlet über [.guihint]#Add > Performance graph# hinzu.
 Unter [.guihint]#General Settings# sollten Sie einen sprechenden Titel vergeben, ansonsten werden Dashboards mit vielen Dashlets schnell unübersichtlich
 -- vor allem, wenn sie nicht von vornherein auf bestimmte Elemente gefiltert werden.
-Da hier das Root-Dateisystem vom Host `myhost` visualisiert werden soll, bietet sich `My Host - Filesystem/` an.
+Da hier das Root-Dateisystem vom Host `myhost` visualisiert werden soll, bietet sich `My Host - Filesystem /` an.
 Komfortabler geht das wie in vielen Eingabefeldern in {CMK} über Makros: `$HOST_NAME$: $SERVICE_DESCRIPTION$`
 Welche Makros Sie jeweils nutzen können, entnehmen Sie den Hilfetexten, die Sie sich mit [.guihint]#Help > Show inline help# einblenden können.
 
@@ -365,7 +365,7 @@ endif::[]
 zur Darstellung der Alarmierungen auf einer Zeitachse.
 
 In diesem Dashlet sollen nun Daten mehrerer Hosts und Services landen -- daher auch oben der Verzicht auf eine Dashboard-weite Vorabfilterung.
-Um alle Alarmierungen aller Hosts zu bekommen, die mit `my` anfangen, setzen Sie den Filter für den Host-Namen auf `^my*`.
+Um alle Alarmierungen aller Hosts zu bekommen, die mit `my` anfangen, setzen Sie den Filter für den Host-Namen auf `^my`.
 Bei diesem Dashlet bietet sich häufig der komplette Verzicht auf Filter an, um alle Hosts auszuwerten.
 
 image::dashboard_example_9a.png[alt="Kontextfilter des Dashlets 'Alert timeline'."]
